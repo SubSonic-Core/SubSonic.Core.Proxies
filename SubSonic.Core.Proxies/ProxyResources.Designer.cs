@@ -68,5 +68,14 @@ namespace SubSonic.Core.Proxies {
                 return ResourceManager.GetString("CouldNotAddValueToQueue", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Proxy should  implement at least one: {0}..
+        /// </summary>
+        internal static string ProxyShouldImplementAtLeastOne {
+            get {
+                return ResourceManager.GetString("ProxyShouldImplementAtLeastOne", resourceCulture);
+            }
+        }
     }
 }

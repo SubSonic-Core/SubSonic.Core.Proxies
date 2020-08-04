@@ -120,4 +120,7 @@
   <data name="CouldNotAddValueToQueue" xml:space="preserve">
     <value>Could not add {0} to queue.</value>
   </data>
+  <data name="ProxyShouldImplementAtLeastOne" xml:space="preserve">
+    <value>Proxy should  implement at least one: {0}.</value>
+  </data>
 </root>

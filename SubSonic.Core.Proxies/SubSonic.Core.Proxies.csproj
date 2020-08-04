@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SubSonic.Core.Extensions" Version="1.0.0-preview-0003-g58aa21afb2" />
+    <PackageReference Include="SubSonic.Core.Extensions" Version="1.0.0-preview-0005-g6fcffa5de1" />
     <PackageReference Include="System.Reflection.Emit" Version="4.7.0" />
   </ItemGroup>
 
