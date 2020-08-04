@@ -1,14 +1,18 @@
 <Project>
-  <PropertyGroup>
-    <PackageProjectUrl>https://github.com/SubSonic-Core</PackageProjectUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Authors>Kenneth Carter</Authors>
-    <PackageTags></PackageTags>
-    <RepositoryUrl>https://github.com/SubSonic-Core/SubSonic.Core.Proxies</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PackageOutputPath>$(MSBuildThisFileDirectory)..\packages\$(Configuration)</PackageOutputPath>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.2.31" PrivateAssets="all" />
-  </ItemGroup>
+	<PropertyGroup>
+		<PackageProjectUrl>https://github.com/SubSonic-Core</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Authors>Kenneth Carter</Authors>
+		<PackageTags></PackageTags>
+		<RepositoryUrl>https://github.com/SubSonic-Core/SubSonic.Core.Proxies</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageOutputPath>$(MSBuildThisFileDirectory)..\packages\$(Configuration)</PackageOutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Nerdbank.GitVersioning" Version="3.2.31" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
 </Project>
